@@ -25,10 +25,9 @@ int contrast(std::vector<int> V) {
         if (e < min) min = e;
         if (e > max) max = e;
 
-    return (max - min);
-    
     }
 
+    return (max - min);
 
 
 
