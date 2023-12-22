@@ -17,7 +17,22 @@ int area (int width, int heigh) {
 
 int contrast(std::vector<int> V) {
 
-    int tempMax = V[0];
+    int max{v[0]};
+    int min{v[0]};
+
+    for (auto e: v) {
+
+        if (e < min) min = e;
+        if (e > max) max = e;
+
+    return (max - min);
+    
+    }
+
+
+
+
+    /*int tempMax = V[0];
     int maxV = 0;
 
     int tempMin = V[0];
@@ -38,6 +53,6 @@ int contrast(std::vector<int> V) {
         }
     }
 
-    return (maxV - minV);
+    return (maxV - minV);*/
 
 }
